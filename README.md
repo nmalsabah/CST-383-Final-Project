@@ -54,28 +54,40 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
 
 ## 📈 Results and Visualizations
 
-- The **Random Forest Regressor** significantly outperformed **Linear Regression**:
-  - **Linear Regression R² Score:** 0.03 (Poor fit)
-  - **Random Forest R² Score:** 0.79 (Good predictive capability)
-
-- **Key Insights:**
-  - The most influential factors were the percentage of layoffs and company size before layoffs.
-  - Certain industries and maturity stages (such as startups) experienced higher workforce reductions.
+- **Model Comparison:**
+  - **Linear Regression:** Initial attempt at predicting layoffs.
+    - **R² Score:** 0.03 (Poor fit, indicating the model struggled with non-linear relationships)
+    - Feature importance was analyzed using model coefficients, showing both positive and negative impacts of features on layoffs.
+  - **Random Forest Regressor:** Used after observing poor performance with Linear Regression.
+    - **R² Score:** 0.79 (Indicates strong predictive power and better handling of non-linear patterns)
+    - Feature importance revealed significant factors like percentage of layoffs and company size before layoffs.
 
 - **Visualizations Included:**
   - Missing data heatmap before and after cleaning
   - Feature distributions before and after cleaning
   - Company size before vs. after layoffs by industry
-  - Scatter plot relationship between Money Raised vs Laid Off
+  - Scatter plot showing the relationship between Money Raised and Laid Off
+  - Bar chart of total layoffs by company
+  - Bar chart of the total layoff percentages by company
+  - Scatter plot comparing actual vs. predicted layoffs using Linear Regression (showing poor performance)
   - Scatter plot comparing actual vs. predicted layoffs using the Random Forest model
 
 ---
 
 ## 💡 Key Findings
 
-- Companies that had larger sizes before layoffs and higher layoff percentages were more likely to experience significant reductions in size.
-- Startups and specific industries, such as fintech and e-commerce, faced higher volatility.
-- Random Forest proved to be the most effective model for predicting layoffs due to its ability to handle non-linear relationships and interactions between variables.
+- Companies with larger sizes before layoffs and higher layoff percentages were more likely to experience significant reductions in size.
+- Startups and specific industries (such as retail and consumer) faced higher volatility.
+- Random Forest was the most effective model for predicting layoffs, as it captured non-linear relationships and complex interactions between variables better than Linear Regression.
+- The feature importance analysis showed:
+- For **Linear Regression**, the most significant features were the company's **Stage** and the **Year** of layoffs:
+  - A negative coefficient for **Stage** (-13.02) shows that more mature companies (e.g., post-IPO) tend to have fewer layoffs.
+  - A positive coefficient for **Year** (9.41) indicates that layoffs increased in more recent years, reflecting industry trends.
+  - The **Percentage** also showed a positive impact, meaning higher percentages of workforce reductions were linked to increased layoffs.
+- For **Random Forest**, the most influential factors were **Company Size before Layoffs** and the **Percentage**:
+  - **Company_Size_before_Layoffs** had the highest importance score (0.78), indicating that larger companies were more likely to experience higher numbers of layoffs. This suggests that company size is a strong predictor of the overall impact of layoffs.
+  - **Percentage** of layoffs (0.13) was also a significant factor, meaning that companies laying off a higher percentage of their workforce were more likely to experience larger total layoffs.
+  - Other features, such as **Money_Raised_in_$_mil** and **Stage**, had relatively low importance scores, suggesting that these factors had a smaller influence on predicting the total number of layoffs in this model.
 
 ---
 
