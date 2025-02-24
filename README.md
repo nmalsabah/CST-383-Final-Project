@@ -8,9 +8,9 @@ As computer science students, we aimed to gain insights into job security in the
 
 ---
 
-## 🎯 Research Question
+## ❓ Research Question
 
-**How do various company characteristics affect company size after layoffs?**  
+**How well can company characteristics predict company size after layoffs in the tech industry from 2020 to 2024?**  
 
 We focused on predicting `Company_Size_after_layoffs` using factors such as:
 - Company size before layoffs
@@ -91,7 +91,7 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
 
 ---
 
-## 🔗 How to Run the Code
+## 💻 How to Run the Code
 
 - **Run the Jupyter Notebook:**
    ```bash
