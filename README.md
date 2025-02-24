@@ -89,3 +89,19 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
    If there are kagglehub errors when initially running the notebook:
    - Run the following at the top of the imports: !pip install --upgrade --force-reinstall kagglehub
    - Run the notebook again
+
+---
+
+## 👥 Team Members
+- **Deborah Shaw**
+- **Nicole Al-Sabah**
+- **Chika Starks**
+
+---
+
+## 📚 References
+- [Kaggle Dataset: Tech Layoffs 2020-2024](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024)
+- [Random Forest Algorithm Explanation - GeeksforGeeks](https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/)
+- [scikit-learn Documentation](https://scikit-learn.org/)
+- [Matplotlib Colormap Documentation](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
+  
