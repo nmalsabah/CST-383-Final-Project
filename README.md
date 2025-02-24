@@ -103,5 +103,6 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
 - [Kaggle Dataset: Tech Layoffs 2020-2024](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024)
 - [Random Forest Algorithm Explanation - GeeksforGeeks](https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/)
 - [scikit-learn Documentation](https://scikit-learn.org/)
+- [Seaborn Heatmap for Missing Values Article](https://medium.com/@HildaPosada/finding-and-visualizing-missing-data-in-python-using-missingno-and-seaborn-d4cf0452b9e9)
 - [Matplotlib Colormap Documentation](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
   
