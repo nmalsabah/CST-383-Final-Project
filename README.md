@@ -1,6 +1,6 @@
 # Tech Layoffs Analysis (2020 - 2024)
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes tech layoffs from 2020 to 2024 using a dataset from [Kaggle](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024). The goal is to understand how company characteristics influence layoffs and predict the number of employees laid off (Laid_Off) based on several factors.
 
@@ -8,7 +8,7 @@ As computer science students, we aimed to gain insights into job security in the
 
 ---
 
-## ❓ Research Question
+## Research Question
 
 **How well can company characteristics predict number of employees laid off (Laid_Off) in the tech industry from 2020 to 2024?**  
 
@@ -23,7 +23,7 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## 🔍 Dataset Information
+## Dataset Information
 
 - **Source:** [Kaggle Dataset - Tech Layoffs 2020-2024](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024)
 - **Features Used:**
@@ -38,7 +38,7 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## ⚙️ Methods and Tools
+## Methods and Tools
 
 - **Programming Language:** Python
 - **Libraries Used:**
@@ -52,7 +52,7 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## 📈 Results and Visualizations
+## Results and Visualizations
 
 - **Model Comparison:**
   - **Linear Regression:** Initial attempt at predicting layoffs.
@@ -74,7 +74,7 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## 💡 Key Findings
+## Findings
 
 - Companies with larger sizes before layoffs and higher layoff percentages were more likely to lay off a larger number of employees.
 - Startups and specific industries (such as retail and consumer) faced higher volatility.
@@ -91,7 +91,7 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## 💻 How to Run the Code
+## How to Run the Code
 
 - **Run the Jupyter Notebook:**
    ```bash
@@ -104,14 +104,14 @@ We focused on predicting `Laid_Off` using factors such as:
 
 ---
 
-## 👥 Team Members
+## Team Members
 - **Deborah Shaw**
 - **Nicole Al-Sabah**
 - **Chika Starks**
 
 ---
 
-## 📚 References
+## References
 - [Kaggle Dataset: Tech Layoffs 2020-2024](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024)
 - [Random Forest Algorithm Explanation - GeeksforGeeks](https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/)
 - [scikit-learn Documentation](https://scikit-learn.org/)
