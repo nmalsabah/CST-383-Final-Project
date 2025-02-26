@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-This project analyzes tech layoffs from 2020 to 2024 using a dataset from [Kaggle](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024). The goal is to understand how company characteristics influence company size after layoffs and predict post-layoff company size based on several factors.
+This project analyzes tech layoffs from 2020 to 2024 using a dataset from [Kaggle](https://www.kaggle.com/datasets/ulrikeherold/tech-layoffs-2020-2024). The goal is to understand how company characteristics influence layoffs and predict the number of employees laid off (Laid_Off) based on several factors.
 
 As computer science students, we aimed to gain insights into job security in the tech sector, helping future graduates better understand which industries and companies might offer more stability.
 
@@ -10,9 +10,9 @@ As computer science students, we aimed to gain insights into job security in the
 
 ## ❓ Research Question
 
-**How well can company characteristics predict company size after layoffs in the tech industry from 2020 to 2024?**  
+**How well can company characteristics predict number of employees laid off (Laid_Off) in the tech industry from 2020 to 2024?**  
 
-We focused on predicting `Company_Size_after_layoffs` using factors such as:
+We focused on predicting `Laid_Off` using factors such as:
 - Company size before layoffs
 - Total funding raised
 - Industry
@@ -34,7 +34,7 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
   - `Percentage`
   - `Country`
   - `Year`
-- **Target Variable:** `Company_Size_after_layoffs`
+- **Target Variable:** `Laid_Off`
 
 ---
 
@@ -76,7 +76,7 @@ We focused on predicting `Company_Size_after_layoffs` using factors such as:
 
 ## 💡 Key Findings
 
-- Companies with larger sizes before layoffs and higher layoff percentages were more likely to experience significant reductions in size.
+- Companies with larger sizes before layoffs and higher layoff percentages were more likely to lay off a larger number of employees.
 - Startups and specific industries (such as retail and consumer) faced higher volatility.
 - Random Forest was the most effective model for predicting layoffs, as it captured non-linear relationships and complex interactions between variables better than Linear Regression.
 - The feature importance analysis showed:
