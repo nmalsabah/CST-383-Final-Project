@@ -64,7 +64,6 @@ We focused on predicting `Laid_Off` using factors such as:
 
 - **Visualizations Included:**
   - Missing data heatmap before and after cleaning
-  - Feature distributions before and after cleaning
   - Company size before vs. after layoffs by industry
   - Scatter plot showing the relationship between Money Raised and Laid Off
   - Bar chart of total layoffs by company
